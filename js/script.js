@@ -329,3 +329,22 @@ jQuery(document).ready(function ($) {
 		}
 	});
 });
+var timer = false;
+$(window).resize(function() {
+    if (timer !== false) {
+        clearTimeout(timer);
+    }
+    timer = setTimeout(function() {
+        var window_width =  $(window).width();
+	　　var current_width = 768;
+	if (window_width >= current_width) {
+		$('.nav').addClass("nav-justified");
+	}else{
+        $('.nav').removeClass("nav-justified");
+    }
+        
+            }, 200);
+});
+
+
+
