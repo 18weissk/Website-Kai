@@ -183,8 +183,7 @@ body {
 		margin-right: 12px;
 	}
 			
-	.nav li[data-slide="1"],
-	.nav li[data-slide="6"] {
+	.nav li[data-slide="1"]{
 		background-color: #2f2f2f;
 	}
 	
@@ -193,7 +192,7 @@ body {
 	}
 	
 	.nav li[data-slide="3"] {
-		background-color: #e74c3c;
+		background-color: #14947B;
 	}
 	
 	.nav li[data-slide="4"] {
@@ -201,9 +200,24 @@ body {
 	}
 	
 	.nav li[data-slide="5"] {
-		background-color: #e67e22;
+		background-color: #10705D;
 	}
 	
+    .nav li[data-slide="6"] {
+		background-color: #2f2f2f;
+	}
+    .nav li[data-slide="7"] {
+        background-color: #0C5446;
+	}
+    
+    .nav li[data-slide="8"] {
+        background-color: #08382F;
+	}
+    
+    .nav li[data-slide="9"] {
+        background-color: #041C17;
+	}
+    
 	.navbar-brand {
 		margin: 50;
 		text-align: left;
@@ -782,5 +796,9 @@ body {
     display: inline !important;
 }
 
+#SageGroupPhoto{
+    width:80%;
+    margin: 0 auto;
+}
 
 
