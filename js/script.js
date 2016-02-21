@@ -343,7 +343,7 @@ $(window).resize(function() {
         $('.nav').removeClass("nav-justified");
     }
         
-            }, 100);
+            }, 200);
 });
 
 
